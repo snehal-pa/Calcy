@@ -10,4 +10,12 @@ class CalculatorTest {
         var calc = new com.company.Calculator();
         assertEquals(7,calc.addition(3,4));
     }
+
+    @Test
+    void substraction() {
+        var calc = new com.company.Calculator();
+        assertEquals(7,calc.substraction(10,3));
+    }
+
+
 }
