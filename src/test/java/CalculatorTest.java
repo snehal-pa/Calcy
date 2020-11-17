@@ -1,4 +1,3 @@
-package test.java;
 
 import org.junit.jupiter.api.Test;
 
@@ -9,6 +8,6 @@ class CalculatorTest {
     @Test
     void addition() {
         var calc = new com.company.Calculator();
-        assertEquals(7,calc.addition(3,4));
+        assertEquals(10,calc.addition(3,4));
     }
 }
