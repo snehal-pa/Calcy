@@ -14,7 +14,7 @@ class CalculatorTest {
     @Test
     void substraction() {
         var calc = new com.company.Calculator();
-        assertEquals(7,calc.substraction(10,3));
+        assertEquals(10,calc.substraction(10,3));
     }
 
 
